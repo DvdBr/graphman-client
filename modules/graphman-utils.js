@@ -218,6 +218,7 @@ module.exports = {
     },
 
     error: function (message, ...args) {
+        console.error("[error] " + message);
         this.log("[error] " + message, args);
     },
 
